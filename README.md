@@ -4,7 +4,7 @@ macOS is missing a command line utility named `realpath` that is found on most *
 
 ## Requirements
 
-- Xcode 8.0 or newer
+- GNU Make 
 
 ## Install
 
@@ -13,7 +13,8 @@ To install:
 ```sh
 git clone https://github.com/swarmbox/realpath.git
 cd realpath
-sudo xcodebuild -target realpath install
+make
+sudo make install
 ```
 
 Installed files:
